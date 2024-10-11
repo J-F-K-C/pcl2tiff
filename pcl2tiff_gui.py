@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 def pcl_to_png(pcl_file, output_png):
-    ghostscript_path = r'C:\Program Files (x86)\gs\ghostpcl-10.04.0-win64\ghostpcl-10.04.0-win64\gpcl6win64.exe'
+    ghostscript_path = r'ghostpcl-10.04.0-win64\ghostpcl-10.04.0-win64\gpcl6win64.exe'
 
     command = [
         ghostscript_path, 
